@@ -2,96 +2,101 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Sam Adam-Day
     - name: Languages
-      value: English, German
+      value: English, Spanish, Welsh
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: DPhil in Mathematics
+      institution: University of Oxford
+      year: 2019–(2023)
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - "Area of specialism: logic/set theory."
+    - title: MSc Master of Logic
+      institution: Institute for Logic, Language and Computation, University of Amsterdam
+      year: 2017–2019
       description:
-        - Description 1.
-        - Description 2.
+        - "Cum Laude; GPA: 9.1/10."
+    - title: MMath Master of Mathematics
+      institution: University of Oxford
+      year: 2012–2016
+      description:
+        - "Master's part: First Class 92%; top in year."
+        - "Bachelor's part: First Class 83%."
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Team lead, OxAI Safety Hub Labs
+      year: 2022
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Research internship performing active learning using large language models.
+        - Lead team of investigators, managing upskilling and development process.
+        - Contributed over 10,000 lines of Python code, leveraging PyTorch.
+        - Ran over 500 experiments on GPUs.
+        - Involved in ongoing research extending the results.
+
+    - title: "Ongoing AI safety collaborations"
+      year: 2022–
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Verification games and open source game theory.
+        - Inductive bias of neural networks.
+        
+    - title: "PhD research: logic, real trees and first-order Kripke semantics"
+      institution: University of Oxford
+      year: 2020–
       description:
+        - Resolved open problem from 2004 in geometric group theory.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: "MSc thesis: polyhedral semantics for modal logic"
+      institution: Institute for Logic, Language and Computation, University of Amsterdam
+      year: 2018–
+      description:
+        - Collaborated on project using polyhedra to interpret modal formulas.
+        - "Paper accepted: <a href='https://arxiv.org/abs/2112.07518'>arXiv:2112.07518</a>."
+        - Second paper in preparation.
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Website and game development
+      year: 2004–
+      description:
+        - Self-taught game programming at age 11.
+        - Developed websites in Python and PHP, working directly with clients.
+        - Programmed with Python and Django, as well as PHP. 
+        - "Examples: <a href='https://tunelines.com/'>tunelines.com</a> and <a href='https://alevelnotes.com/'>alevelnotes.com</a>."
+        - Maintained and secured websites receiving 1,000,000s of monthly visitors.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2019
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
+        - EPSRC Excellence Award. Doctorate scholarship.
+    - year: 2017
       items: 
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
+        - Amsterdam Science Talent Scholarship for MSc. One of five recipients.
+    - year: 2016
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Gibbs Prize for "outstanding academic achievement" in final year of MMath.
+        - Gibbs Dissertation Prize for MMath dissertation.
+    - year: 2015
       items:
-        - Description 1.
-        - Description 2.
+        - EPSRC Vacation Bursary. Support for summer research project.
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+# - title: Academic Interests
+#   type: nested_list
+#   contents:
+#     - title: Topic 1.
+#       items: 
+#         - Description 1.
+#         - Description 2.
+#     - title: Topic 2.
+#       items:
+#         - Description 1.
+#         - Description 2.
+
+# - title: Other Interests
+#   type: list
+#   contents:
+#     - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
