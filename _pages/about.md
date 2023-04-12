@@ -17,6 +17,8 @@ social: true  # includes social icons at the bottom of the page
 
 I am interested in various topics related to ML/AI, specifically AI safety. Currently I am in my final of a PhD at the [Mathematical Institute](https://www.maths.ox.ac.uk/) of the [University of Oxford](https://www.ox.ac.uk/).
 
+Check out my [GitHub page](https://github.com/SamAdamDay).
+
 The following are broadly my current research interests. See also my [list of publications](/publications).
 - Multi-agent cooperation
 - Graph machine learning
