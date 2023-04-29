@@ -6,7 +6,7 @@ subtitle: AI and Mathematics PhD Researcher at the University of Oxford
 
 profile:
   align: right
-  image: prof_pic.png
+  image: sam-adam-day-profile.jpg
   image_circular: true # crops the image to make it circular
   address:
 
