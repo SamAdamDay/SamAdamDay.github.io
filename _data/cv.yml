@@ -11,7 +11,7 @@
   contents:
     - title: DPhil in Mathematics
       institution: University of Oxford
-      year: 2019–(2023)
+      year: 2019–2023
       description:
         - "Area of specialism: logic/set theory."
     - title: MSc Master of Logic
@@ -29,6 +29,10 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Research Associate, Department of Computer Science, University of Oxford
+      year: 2023-(2024)
+      description:
+        - Postdoctoral researcher investigating connections between logic and machine learning.
     - title: Team lead, OxAI Safety Hub Labs
       year: 2022
       description:
