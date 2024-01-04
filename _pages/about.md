@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: AI and Mathematics PhD Researcher at the University of Oxford
+subtitle: AI and Mathematics Researcher at the University of Oxford
 
 profile:
   align: right
