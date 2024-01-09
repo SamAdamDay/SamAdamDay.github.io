@@ -21,6 +21,8 @@ researcher](https://www.cs.ox.ac.uk/people/sam.adam-day/) at the Computer Scienc
 Department of the University of Oxford with [Michael
 Benedikt](https://www.cs.ox.ac.uk/people/michael.benedikt/).
 
+You can [download my CV here]({% link /assets/pdf/CV-Sam-Adam-Day.pdf %}).
+
 Check out my [GitHub page](https://github.com/SamAdamDay).
 
 The following are broadly my current research interests. See also my [list of
