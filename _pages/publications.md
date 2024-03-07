@@ -3,7 +3,7 @@ layout: page
 permalink: /publications/
 title: Publications
 description: Here are my publications (including preprints).
-years: [2023, 2022, 2020, 2019]
+years: [2024, 2023, 2022, 2020, 2019]
 nav: true
 nav_order: 1
 ---
