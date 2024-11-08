@@ -1,20 +1,31 @@
 ---
 ---
 
+@inproceedings{hammond-adam-day-2024-nip-icml,
+  author    = {Hammond, Lewis and Adam-Day, Sam},
+  title     = {Neural Interactive Proofs},
+  year      = {2024},
+  booktitle = {Next Generation of AI Safety Workshop, ICML '24},
+  url       = {https://openreview.net/forum?id=RhEND1litL},
+  html      = {https://openreview.net/forum?id=RhEND1litL},
+  bibtex_show   = {true},
+  abstract  = {We consider the problem of how a trusted, but computationally bounded agent (a 'verifier') can learn to interact with one or more powerful but untrusted agents ('provers') in order to solve a given task without being misled. More specifically, we study the case in which agents are represented using neural networks and refer to solutions of this problem as neural interactive proofs. First we introduce a unifying framework based on prover-verifier games (Anil et al., 2021), which generalises previously proposed interaction 'protocols'. We then describe several new protocols for generating neural interactive proofs, and provide a (theoretical) comparison of both new and existing approaches. In so doing, we aim to create a foundation for future work on neural interactive proofs and their application in building safer AI systems.},
+  preview       = {nip-schematic.png},
+}
 
 @misc{adam-day-et-al-2024-aas-constant,
   author        = {Sam Adam-Day and Michael Benedikt and İsmail İlkan Ceylan and Ben Finkelshtein},
-  note          = {Preprint},
+  note          = {To appear NeurIPS '24},
   howpublished  = {Preprint},
-  title         = {Graph neural network outputs are almost surely asymptotically constant},
+  title         = {Almost Surely Asymptotically Constant Graph Neural Networks},
   year          = {2024},
   bibtex_show   = {true},
   eprint        = {2307.16600},
   archiveprefix = {arXiv},
   primaryclass  = {cs.LG},
   arxiv         = {2403.03880},
-  abstract      = {Graph neural networks (GNNs) are the predominant architectures for a variety of learning tasks on graphs. We present a new angle on the expressive power of GNNs by studying how the predictions of a GNN probabilistic classifier evolve as we apply it on larger graphs drawn from some random graph model. We show that the output converges to a constant function, which upper-bounds what these classifiers can express uniformly. This convergence phenomenon applies to a very wide class of GNNs, including state of the art models, with aggregates including mean and the attention-based mechanism of graph transformers. Our results apply to a broad class of random graph models, including the (sparse) Erdős-Rényi model and the stochastic block model. We empirically validate these findings, observing that the convergence phenomenon already manifests itself on graphs of relatively modest size. },
-  preview       = {gnn-convergence.png},
+  abstract      = {Graph neural networks (GNNs) are the predominant architectures for a variety of learning tasks on graphs. We present a new angle on the expressive power of GNNs by studying how the predictions of a GNN probabilistic classifier evolve as we apply it on larger graphs drawn from some random graph model. We show that the output converges to a constant function, which upper-bounds what these classifiers can express uniformly. This convergence phenomenon applies to a very wide class of GNNs, including state of the art models, with aggregates including mean and the attention-based mechanism of graph transformers. Our results apply to a broad class of random graph models, including the (sparse) Erdős-Rényi model and the stochastic block model. We empirically validate these findings, observing that the convergence phenomenon already manifests itself on graphs of relatively modest size.},
+  preview       = {aas-constant-schematic.png},
   selected      = {true}
 }
 
@@ -28,6 +39,8 @@
   archiveprefix = {arXiv},
   primaryclass  = {cs.LG},
   arxiv         = {2301.13060},
+  url           = {https://openreview.net/forum?id=DGmxTUCHYs},
+  html          = {https://openreview.net/forum?id=DGmxTUCHYs},
   abstract      = {Graph neural networks (GNNs) are de facto standard deep learning architectures for machine learning on graphs. This has led to a large body of work analyzing the capabilities and limitations of these models, particularly pertaining to their representation and extrapolation capacity. We offer a novel theoretical perspective on the representation and extrapolation capacity of GNNs, by answering the question: how do GNNs behave as the number of graph nodes become very large? Under mild assumptions, we show that when we draw graphs of increasing size from the Erdős-Rényi model, the probability that such graphs are mapped to a particular output by a class of GNN classifiers tends to either zero or to one. This class includes the popular graph convolutional network architecture. The result establishes 'zero-one laws' for these GNNs, and analogously to other convergence laws, entails theoretical limitations on their capacity. We empirically verify our results, observing that the theoretical asymptotic limits are evident already on relatively small graphs.},
   preview       = {gcn-zero-one.png},
   selected      = {true}
